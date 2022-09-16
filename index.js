@@ -47,5 +47,5 @@ app.use((err, req, res, next) => {
 
 app.listen(process.env.port, () => {
   connect();
-  console.log("Connected to backend 8080.");
+  console.log("Connected to backend 8800.");
 });
