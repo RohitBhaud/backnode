@@ -44,6 +44,9 @@ app.use((err, req, res, next) => {
     stack: err.stack,
   });
 });
+app.get("/" ,(req,res)=>{
+  res.send("start")
+})
 
 app.listen( process.env.PORT , () => {
   connect();
